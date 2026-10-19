@@ -35,7 +35,7 @@ Every secret (auth, encryption, cron, Hub and Cube keys, SpiceDB key, database a
 
 - [Formbricks self-hosting documentation](https://formbricks.com/docs/self-hosting/overview)
 - [Formbricks on GitHub](https://github.com/formbricks/formbricks)
-- [Template source on GitHub](https://github.com/nomideusz/formbricks-railway)
+- [Template source on GitHub](https://github.com/two-workspaces/formbricks)
 
 ### Implementation Details
 

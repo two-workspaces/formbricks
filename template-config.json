@@ -6,7 +6,7 @@
   },
   "services": {
     "504381eb-4bbb-4afe-8710-22c7f0ada935": {
-      "icon": "https://raw.githubusercontent.com/nomideusz/formbricks-railway/main/icon.svg",
+      "icon": "https://raw.githubusercontent.com/two-workspaces/formbricks/main/icon.svg",
       "name": "Formbricks",
       "build": {},
       "deploy": {
@@ -16,7 +16,7 @@
         "restartPolicyMaxRetries": 10
       },
       "source": {
-        "repo": "https://github.com/nomideusz/formbricks-railway",
+        "repo": "https://github.com/two-workspaces/formbricks",
         "rootDirectory": "/formbricks"
       },
       "networking": {
@@ -337,7 +337,7 @@
       }
     },
     "9ede0c30-7446-4961-bfaf-d3fd3d4f3129": {
-      "icon": "https://raw.githubusercontent.com/nomideusz/formbricks-railway/main/icon.svg",
+      "icon": "https://raw.githubusercontent.com/two-workspaces/formbricks/main/icon.svg",
       "name": "Hub",
       "build": {},
       "deploy": {
@@ -382,7 +382,7 @@
       }
     },
     "f1a4057b-c544-4407-82fc-a78dc201aead": {
-      "icon": "https://raw.githubusercontent.com/nomideusz/formbricks-railway/main/icon.svg",
+      "icon": "https://raw.githubusercontent.com/two-workspaces/formbricks/main/icon.svg",
       "name": "Cube",
       "build": {},
       "deploy": {
@@ -392,7 +392,7 @@
         "restartPolicyMaxRetries": 10
       },
       "source": {
-        "repo": "https://github.com/nomideusz/formbricks-railway",
+        "repo": "https://github.com/two-workspaces/formbricks",
         "rootDirectory": "/cube"
       },
       "networking": {
