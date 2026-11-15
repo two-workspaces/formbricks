@@ -1,0 +1,8 @@
+The MIT licence in LICENSE covers the files written for this Railway template.
+
+These files come from another project and stay under that project's licence:
+
+- cube/cube.js
+- cube/model/FeedbackRecords.js
+
+Source: https://github.com/formbricks/formbricks (docker/cube)
