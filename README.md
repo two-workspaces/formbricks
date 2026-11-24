@@ -9,7 +9,7 @@
 Formbricks 6 is no longer a single container. It refuses to start without SpiceDB for authorization, and it needs Hub (feedback records) and Cube (analytics) as well. This template runs the full stack in seven services and a bucket:
 
 - **Formbricks**: the official `ghcr.io/formbricks/formbricks:6.1.3` image. A small wrapper runs what upstream's compose does in one-shot jobs before the server starts: database migrations, loading the SpiceDB schema, and setting CORS on the bucket. The health check on `/health` waits for all of that, and upgrading means bumping the image tag.
-- **SpiceDB**: the official `authzed/spicedb:v1.57.0` image (the `-debug` variant, which includes a shell). It migrates its datastore on boot and keeps relationships in Postgres's built-in `postgres` database, separate from the app's data.
+- **SpiceDB**: the official `authzed/spicedb:v1.57.1` image (the `-debug` variant, which includes a shell). It migrates its datastore on boot and keeps relationships in Postgres's built-in `postgres` database, separate from the app's data.
 - **Hub**: the official `ghcr.io/formbricks/hub:0.14.1` image. It shares the Formbricks database, as upstream does, so it waits for Formbricks to create its tables and then runs its own goose and River migrations.
 - **Hub Worker**: the same image, running `hub-worker`. It processes Hub's background jobs, such as webhooks and enrichments.
 - **Cube**: the official `ghcr.io/formbricks/cube:1.8.8-2` image, with upstream's `cube.js` and feedback-record schema built in, since Railway can't bind-mount config files.
